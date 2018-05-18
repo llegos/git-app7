@@ -1,9 +1,9 @@
 // JavaScript Document
 
- $(document).ready(function(e) {
-	 document.addEventListener("deviceready",function(){
+$(document).ready(function (e){
+	 document.addEventListener ("deviceready",function(){
 		 
-		 $('izquierda').on("swipeleft",function(){
+		 $('#izquierda').on("swipeleft",function(){
 			 navigator.notification. alert("Deslizo a la izquierda",function(){"Aplicasion7","Aceptar"});   
 });
 
@@ -17,10 +17,9 @@ $('#derecha').on("swiperight",function(){
 			
 			case 2:
 			navigator.notification.vibrate(1000);
-			break;
-			
+			break;		
 		}
-	},"Aplicasion7","Beep,Vibrar,Cancelar");
+	},"Aplicacion7","Beep,Vibrar,Cancelar");
 	
 });
 	 },false);
